@@ -1,0 +1,93 @@
+.Slider {
+  /* border: 1px solid coral; */
+  width: 100%;
+  min-height: 20px;
+}
+
+.TrackContainer {  
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.Track {
+  position: relative;
+  height: 4px;
+  width: 100%;
+}
+
+.TrackBackground {
+  border-radius: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(225, 227, 234);
+}
+
+.TrackFill {
+  border-radius: 20%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgb(31, 61, 153);
+}
+
+.TrackFillA {
+  background-color: #75CAAA;
+}
+.TrackFillB {
+  background-color: #FFB020;
+}
+.TrackFillC {
+  background-color: #3366FF;
+}
+
+.Thumb {
+  position: aboslute;
+  transform: translate(-50%, -50%);
+  touch-action: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 2px;
+  cursor: pointer;
+  transition: background-color 150ms ease, box-shadow 150ms ease;
+}
+
+.Labels {
+  display: flex;
+}
+
+.VariantLabels {
+  display: flex;
+}
+.WinnerLabels {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.Label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  color: gray;
+}
+
+.LabelA {
+  color: #75CAAA;
+}
+.LabelB {
+  color: #FFB020;
+}
+.LabelC {
+  color: #3366FF;
+}
