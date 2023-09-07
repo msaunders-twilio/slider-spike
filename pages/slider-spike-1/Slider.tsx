@@ -79,8 +79,12 @@ export const Slider: React.FC<SliderProps> = (props) => {
   const displayVairantPercentage = variantPercentage.toFixed(1).replace(/[.,]0$/, "");
   const displayWinnerPercentage = (100.0 - fillPercentage);
 
+  const mainDivProps = {
+    tabIndex: 1,
+  }
+
   return (
-    <div className={styles.Slider}>
+    <div className={styles.Slider} {...mainDivProps}>
       <div className={styles.Labels}>
         <div
           className={styles.VariantLabels}

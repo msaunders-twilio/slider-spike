@@ -4,8 +4,6 @@ import {
   DisclosureContent
 } from '@twilio-paste/core/disclosure';
 import { Button } from '@twilio-paste/core/button';
-import { Flex } from '@twilio-paste/core/flex';
-
 
 export default function Demo2() {
   return (
