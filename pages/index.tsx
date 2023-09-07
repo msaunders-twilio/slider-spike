@@ -20,6 +20,9 @@ export default function Home() {
           <li>
             <Link href="/slider-spike-1">Spike #1</Link>
           </li>
+          <li>
+            <Link href="/slider-spike-2">Spike #2</Link>
+          </li>
         </ul>
 
         <div style={{marginBottom: '20px'}}></div>
