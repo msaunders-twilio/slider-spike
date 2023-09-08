@@ -36,6 +36,15 @@ export default function Home() {
           <Link href="/disclosure-spike-2">Spike #2</Link>
           </li>
         </ul>
+
+        <div style={{marginBottom: '20px'}}></div>
+
+        <h2>Progress Steps</h2>
+        <ul>
+          <li>
+            <Link href="/progress-steps-spike-1">Spike #1</Link>
+          </li>
+        </ul>
       </main>
     </>
   )
